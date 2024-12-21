@@ -17,3 +17,8 @@ function calculate() {
       amountEl_two.value = (amountEl_one.value * (rate)).toFixed(2);
     });
 }
+
+currencyEl_one.addEventListener('change', calculate);
+amountEl_one.addEventListener('input', calculate);
+currencyEl_two.addEventListener('change', calculate);
+amountEl_two.addEventListener('input', calculate);
