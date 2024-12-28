@@ -104,3 +104,11 @@ window.addEventListener('keydown', e => {
 		}
 	}
 });
+
+playAgainBtn.addEventListener('click', () => {
+	playable = true;
+
+	//  Empty arrays
+	correctLetters.splice(0);
+	wrongLetters.splice(0);
+});
