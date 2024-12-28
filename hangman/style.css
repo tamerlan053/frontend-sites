@@ -53,3 +53,11 @@ h1 {
 .wrong-letters-container span {
   font-size: 24px;
 }
+
+.word {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
